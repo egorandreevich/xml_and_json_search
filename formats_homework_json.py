@@ -1,6 +1,5 @@
 from pprint import pprint
 import json
-from pprint import pprint
 
 with open('./newsafr.json', encoding = 'utf-8_sig') as datafile:
     json_data = json.load(datafile)
